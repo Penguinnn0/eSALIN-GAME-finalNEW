@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -422,7 +422,7 @@ MonoBehaviour:
   units: 500
   Prefab: {fileID: 1804535667647702967, guid: 2c545085fd7c59447901752d0cf4696d, type: 3}
   fill: {fileID: 2052876887}
-  nextSceneName: Main Menu
+  nextSceneName: SelectDifficulty
 --- !u!114 &1646559586
 MonoBehaviour:
   m_ObjectHideFlags: 0

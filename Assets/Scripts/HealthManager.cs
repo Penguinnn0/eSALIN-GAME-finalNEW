@@ -6,15 +6,21 @@ using UnityEngine.UI;
 public class HealthManager : MonoBehaviour
 {
     public int health = 6;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
+  
     // Update is called once per frame
     void Update()
     {
-        
+        foreach (Image img in hearts)
+        {
+            img.sprite = emptyHeart;
+        }
+        for (int i = 0; i < health; i++)
+        {
+            hearts[i].sprite = fullHeart;
+        }
     }
 }
